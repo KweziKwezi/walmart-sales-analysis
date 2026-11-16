@@ -66,8 +66,6 @@ Thanksgiving is the only holiday with a large boost. The flagged Christmas weeks
 - **No store details:** store size, format and location are not included, so the reasons for store differences cannot be tested.
 - **Regional economic data:** CPI and unemployment change slowly within a region, so they act partly as location labels.
 - **Holiday flags:** the notebook maps flagged weeks to named holidays by month, which assumes the flag covers only those four holidays.
-- **Temperature units** are assumed to be Fahrenheit.
-- **Correlation is not causation.** This is descriptive analysis.
 
 ## How to run
 
@@ -78,9 +76,3 @@ jupyter notebook Walmart-Analysis.ipynb
 
 Place `Walmart_Sales.csv` in the same folder as the notebook.
 
-## Possible next steps
-
-- Build a baseline forecast (for example "same week last year") and compare it with a machine learning model split by time
-- Test each factor's predictive power with a random forest (store only vs economy only vs store plus season)
-- Analyse the most volatile stores and the pre-Christmas weeks separately
-- Add a store-level dashboard
